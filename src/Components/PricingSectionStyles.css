@@ -1,0 +1,171 @@
+.pricing-grid {
+  display: flex;
+  flex-direction: column;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  /* gap: 2rem; */
+  padding: 2rem;
+}
+
+.pricing-card {
+  border-radius: 1rem;
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+  background: #fff;
+  margin-bottom: 1.3rem;
+}
+
+.pricing-card:hover {
+  transform: scale(1.01);
+}
+
+.pricing-content {
+  padding: 2rem;
+}
+
+.pricing-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.pricing-price {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #1e90ff;
+  margin-bottom: 1rem;
+}
+
+.pricing-subtitle {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 1.5rem;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.feature-icon {
+  color: #1e90ff;
+  margin-right: 0.5rem;
+  font-weight: bold;
+}
+
+.pricing-meta {
+  font-size: 0.85rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.pricing-button {
+  width: 100%;
+  background-color: #1e90ff;
+  color: white;
+  font-weight: bold;
+  padding: 0.75rem;
+  border-radius: 0.5rem;
+}
+
+/* Modern Custom Category Selector */
+.custom-selector {
+  margin-bottom: 2rem;
+}
+
+.selector-label {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.selector {
+  display: flex;
+  gap: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.selector-item {
+  padding: 10px;
+  background-color: #ffffff;
+  border-radius: 5px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.selector-item:hover {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.selector-item.selected {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.selector-item:not(.selected):hover {
+  background-color: #0056b3;
+}
+
+.category-cards {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  max-width: 100%;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.addons-card {
+  margin-top: 0.5rem;
+  padding: 1.5rem;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.addons-title {
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+.addons-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.addon-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+}
+
+.addon-icon {
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+
+.addon-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.addon-price {
+  font-size: 1rem;
+  color: #1e90ff;
+  font-weight: bold;
+}
